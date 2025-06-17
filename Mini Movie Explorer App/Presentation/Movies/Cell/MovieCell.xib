@@ -25,7 +25,7 @@
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ibH-gT-y0J">
-                        <rect key="frame" x="8" y="248" width="224" height="44"/>
+                        <rect key="frame" x="8" y="247.99999999999997" width="224" height="21.666666666666657"/>
                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -44,6 +44,9 @@
                             <action selector="favoriteButtonTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="c9h-iJ-D3M"/>
                         </connections>
                     </button>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="rCI-kg-lxX">
+                        <rect key="frame" x="101.66666666666667" y="101.66666666666667" width="37.000000000000014" height="37.000000000000014"/>
+                    </activityIndicatorView>
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
@@ -51,16 +54,19 @@
                 <constraint firstItem="eYM-Wm-Qnv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="8Dr-NY-oCL"/>
                 <constraint firstItem="ibH-gT-y0J" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="Ab2-xH-WwD"/>
                 <constraint firstItem="eYM-Wm-Qnv" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="FH3-sB-ktw"/>
+                <constraint firstItem="rCI-kg-lxX" firstAttribute="centerX" secondItem="eYM-Wm-Qnv" secondAttribute="centerX" id="PT9-UD-Dse"/>
                 <constraint firstAttribute="trailing" secondItem="ibH-gT-y0J" secondAttribute="trailing" constant="8" id="Tx0-Qq-z0M"/>
-                <constraint firstAttribute="bottom" secondItem="ibH-gT-y0J" secondAttribute="bottom" constant="8" id="lPN-G1-Luc"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="ibH-gT-y0J" secondAttribute="bottom" constant="8" id="lPN-G1-Luc"/>
                 <constraint firstAttribute="trailing" secondItem="eYM-Wm-Qnv" secondAttribute="trailing" id="qYt-vV-Wnr"/>
                 <constraint firstAttribute="trailing" secondItem="fTd-2Y-LNR" secondAttribute="trailing" constant="4" id="sYT-YY-6o7"/>
                 <constraint firstItem="fTd-2Y-LNR" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="4" id="tov-cm-TMK"/>
                 <constraint firstItem="ibH-gT-y0J" firstAttribute="top" secondItem="eYM-Wm-Qnv" secondAttribute="bottom" constant="8" id="vBw-2M-yp7"/>
+                <constraint firstItem="rCI-kg-lxX" firstAttribute="centerY" secondItem="eYM-Wm-Qnv" secondAttribute="centerY" id="xr2-7R-Bre"/>
             </constraints>
             <size key="customSize" width="240" height="300"/>
             <connections>
                 <outlet property="favoriteBtn" destination="fTd-2Y-LNR" id="CG1-HA-8yC"/>
+                <outlet property="loadingIndicator" destination="rCI-kg-lxX" id="2h5-D9-s8W"/>
                 <outlet property="movieImg" destination="eYM-Wm-Qnv" id="Wxz-HH-g79"/>
                 <outlet property="movieTitle" destination="ibH-gT-y0J" id="As6-00-e8c"/>
             </connections>
@@ -69,7 +75,7 @@
     </objects>
     <resources>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

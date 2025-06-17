@@ -17,6 +17,7 @@ class MovieCell: UICollectionViewCell {
     @IBOutlet weak var movieImg: UIImageView!
     @IBOutlet weak var movieTitle: UILabel!
     @IBOutlet weak var favoriteBtn: UIButton!
+    @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
     
     weak var delegate: MovieCellDelegate?
     
@@ -26,9 +27,13 @@ class MovieCell: UICollectionViewCell {
             movieTitle.text = movie.title
 
             if let url = URL(string: "https://image.tmdb.org/t/p/w500\(movie.posterPath)") {
-                movieImg.kf.setImage(with: url, placeholder: UIImage(systemName: "film"))
+                loadingIndicator.startAnimating()
+                movieImg.kf.setImage(with: url) { [weak self] _ in
+                    self?.loadingIndicator.stopAnimating()
+                }
             } else {
                 movieImg.image = UIImage(systemName: "film")
+                loadingIndicator.stopAnimating()
             }
         }
     }
@@ -42,11 +47,14 @@ class MovieCell: UICollectionViewCell {
     override func prepareForReuse() {
         super.prepareForReuse()
         movieImg.image = nil
+        loadingIndicator.stopAnimating()
     }
     
     @IBAction func favoriteButtonTapped(_ sender: UIButton) {
-        print("tapped")
         guard let movie = movie else { return }
+
+        UIView.transition(with: sender, duration: 0.3, options: .transitionFlipFromLeft, animations: nil, completion: nil)
+
         delegate?.movieCell(self, didTapFavoriteFor: movie)
     }
 }
