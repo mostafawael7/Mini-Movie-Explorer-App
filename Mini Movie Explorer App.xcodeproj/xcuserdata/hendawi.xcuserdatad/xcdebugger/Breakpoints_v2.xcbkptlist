@@ -3,4 +3,158 @@
    uuid = "342D5F65-A3A1-454C-9CF4-5C584F20B655"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D8321BA-FF9B-4185-8919-CC93B56EC5E0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mini Movie Explorer App/Presentation/Movies/View/MoviesVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "movieCell(_:didTapFavoriteFor:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5D8321BA-FF9B-4185-8919-CC93B56EC5E0 - 1d7adb5f3dacf18c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mini_Movie_Explorer_App.MoviesVC.movieCell(_: Mini_Movie_Explorer_App.MovieCell, didTapFavoriteFor: Mini_Movie_Explorer_App.Movie) -&gt; ()"
+                  moduleName = "Mini Movie Explorer App.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hendawi/Desktop/Mini%20Movie%20Explorer%20App/Mini%20Movie%20Explorer%20App/Presentation/Movies/View/MoviesVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77">
+               </Location>
+               <Location
+                  uuid = "5D8321BA-FF9B-4185-8919-CC93B56EC5E0 - 1d7adb5f3dacf16d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mini_Movie_Explorer_App.MoviesVC.movieCell(_: Mini_Movie_Explorer_App.MovieCell, didTapFavoriteFor: Mini_Movie_Explorer_App.Movie) -&gt; ()"
+                  moduleName = "Mini Movie Explorer App.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hendawi/Desktop/Mini%20Movie%20Explorer%20App/Mini%20Movie%20Explorer%20App/Presentation/Movies/View/MoviesVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72AFCF86-B44F-4C82-A3E8-A5A81EF5F8D3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mini Movie Explorer App/Presentation/Movies/View/MoviesVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "movieCell(_:didTapFavoriteFor:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F90E183-1202-4EF8-9D56-E42724C0AD08"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mini Movie Explorer App/Presentation/Movies/View/MoviesVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "movieCell(_:didTapFavoriteFor:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A230EB95-2083-4EC3-BBE6-D410DB6AE63E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mini Movie Explorer App/Presentation/Movies/View/MoviesVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A230EB95-2083-4EC3-BBE6-D410DB6AE63E - d95b86b2f69345d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mini_Movie_Explorer_App.MoviesVC.collectionView(_: __C.UICollectionView, willDisplay: __C.UICollectionViewCell, forItemAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Mini Movie Explorer App.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hendawi/Desktop/Mini%20Movie%20Explorer%20App/Mini%20Movie%20Explorer%20App/Presentation/Movies/View/MoviesVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58">
+               </Location>
+               <Location
+                  uuid = "A230EB95-2083-4EC3-BBE6-D410DB6AE63E - 824449240768d476"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () async -&gt; () in Mini_Movie_Explorer_App.MoviesVC.collectionView(_: __C.UICollectionView, willDisplay: __C.UICollectionViewCell, forItemAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Mini Movie Explorer App.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hendawi/Desktop/Mini%20Movie%20Explorer%20App/Mini%20Movie%20Explorer%20App/Presentation/Movies/View/MoviesVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58">
+               </Location>
+               <Location
+                  uuid = "A230EB95-2083-4EC3-BBE6-D410DB6AE63E - 5b336f041122e29f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 () async -&gt; () in Mini_Movie_Explorer_App.MoviesVC.collectionView(_: __C.UICollectionView, willDisplay: __C.UICollectionViewCell, forItemAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Mini Movie Explorer App.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hendawi/Desktop/Mini%20Movie%20Explorer%20App/Mini%20Movie%20Explorer%20App/Presentation/Movies/View/MoviesVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58">
+               </Location>
+               <Location
+                  uuid = "A230EB95-2083-4EC3-BBE6-D410DB6AE63E - ebf653ee9368bd95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mini_Movie_Explorer_App.MoviesVC.collectionView(_: __C.UICollectionView, didSelectItemAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Mini Movie Explorer App.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hendawi/Desktop/Mini%20Movie%20Explorer%20App/Mini%20Movie%20Explorer%20App/Presentation/Movies/View/MoviesVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

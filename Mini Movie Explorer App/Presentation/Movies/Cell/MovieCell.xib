@@ -5,6 +5,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -29,9 +30,20 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="PhE-qY-lzd">
-                        <rect key="frame" x="101.66666666666667" y="101.66666666666667" width="37.000000000000014" height="37.000000000000014"/>
-                    </activityIndicatorView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTd-2Y-LNR">
+                        <rect key="frame" x="204" y="4" width="32" height="32"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="H3C-Hz-2Pt"/>
+                            <constraint firstAttribute="height" constant="32" id="ZtS-vc-8v9"/>
+                        </constraints>
+                        <color key="tintColor" systemColor="systemRedColor"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain"/>
+                        <connections>
+                            <action selector="favoriteButtonTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="c9h-iJ-D3M"/>
+                        </connections>
+                    </button>
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
@@ -39,20 +51,25 @@
                 <constraint firstItem="eYM-Wm-Qnv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="8Dr-NY-oCL"/>
                 <constraint firstItem="ibH-gT-y0J" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="Ab2-xH-WwD"/>
                 <constraint firstItem="eYM-Wm-Qnv" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="FH3-sB-ktw"/>
-                <constraint firstItem="PhE-qY-lzd" firstAttribute="centerX" secondItem="eYM-Wm-Qnv" secondAttribute="centerX" id="Tgz-eY-KQT"/>
                 <constraint firstAttribute="trailing" secondItem="ibH-gT-y0J" secondAttribute="trailing" constant="8" id="Tx0-Qq-z0M"/>
-                <constraint firstItem="PhE-qY-lzd" firstAttribute="centerY" secondItem="eYM-Wm-Qnv" secondAttribute="centerY" id="aPE-BY-CMK"/>
                 <constraint firstAttribute="bottom" secondItem="ibH-gT-y0J" secondAttribute="bottom" constant="8" id="lPN-G1-Luc"/>
                 <constraint firstAttribute="trailing" secondItem="eYM-Wm-Qnv" secondAttribute="trailing" id="qYt-vV-Wnr"/>
+                <constraint firstAttribute="trailing" secondItem="fTd-2Y-LNR" secondAttribute="trailing" constant="4" id="sYT-YY-6o7"/>
+                <constraint firstItem="fTd-2Y-LNR" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="4" id="tov-cm-TMK"/>
                 <constraint firstItem="ibH-gT-y0J" firstAttribute="top" secondItem="eYM-Wm-Qnv" secondAttribute="bottom" constant="8" id="vBw-2M-yp7"/>
             </constraints>
             <size key="customSize" width="240" height="300"/>
             <connections>
-                <outlet property="loadingIndicator" destination="PhE-qY-lzd" id="87W-WB-PCk"/>
+                <outlet property="favoriteBtn" destination="fTd-2Y-LNR" id="CG1-HA-8yC"/>
                 <outlet property="movieImg" destination="eYM-Wm-Qnv" id="Wxz-HH-g79"/>
                 <outlet property="movieTitle" destination="ibH-gT-y0J" id="As6-00-e8c"/>
             </connections>
             <point key="canvasLocation" x="265.64885496183206" y="108.45070422535211"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
