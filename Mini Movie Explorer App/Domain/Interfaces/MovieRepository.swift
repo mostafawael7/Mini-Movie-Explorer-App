@@ -7,4 +7,5 @@
 
 protocol MovieRepository {
     func fetchPopularMovies(page: Int) async throws -> [Movie]
+    func fetchMovieDetails(id: Int) async throws -> MovieDetails
 }

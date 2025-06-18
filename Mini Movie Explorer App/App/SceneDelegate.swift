@@ -19,7 +19,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if let windowScene = scene as? UIWindowScene{
             let window = UIWindow(windowScene: windowScene)
             
-            window.rootViewController = MoviesVC()
+//            window.rootViewController = MoviesVC()
+            let moviesVC = MoviesVC()
+            let navigationController = UINavigationController(rootViewController: moviesVC)
+            window.rootViewController = navigationController
             self.window = window
             window.makeKeyAndVisible()
         }

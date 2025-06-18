@@ -21,7 +21,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="BaO-cu-0GR">
-                    <rect key="frame" x="12" y="59" width="369" height="759"/>
+                    <rect key="frame" x="10" y="69" width="373" height="749"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="DOo-EY-2M0">
                         <size key="itemSize" width="128" height="128"/>
@@ -34,9 +34,9 @@
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="BaO-cu-0GR" secondAttribute="trailing" constant="12" id="KS1-yz-bWE"/>
-                <constraint firstItem="BaO-cu-0GR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="12" id="RV5-XL-ItQ"/>
-                <constraint firstItem="BaO-cu-0GR" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Rcz-dE-Dav"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="BaO-cu-0GR" secondAttribute="trailing" constant="10" id="KS1-yz-bWE"/>
+                <constraint firstItem="BaO-cu-0GR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="RV5-XL-ItQ"/>
+                <constraint firstItem="BaO-cu-0GR" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="Rcz-dE-Dav"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="BaO-cu-0GR" secondAttribute="bottom" id="m04-k8-Dn0"/>
             </constraints>
             <point key="canvasLocation" x="138" y="21"/>

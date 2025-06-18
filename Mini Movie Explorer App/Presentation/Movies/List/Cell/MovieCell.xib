@@ -18,6 +18,9 @@
                 <rect key="frame" x="0.0" y="0.0" width="240" height="300"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="rCI-kg-lxX">
+                        <rect key="frame" x="101.66666666666667" y="101.66666666666667" width="37.000000000000014" height="37.000000000000014"/>
+                    </activityIndicatorView>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eYM-Wm-Qnv">
                         <rect key="frame" x="0.0" y="0.0" width="240" height="240"/>
                         <constraints>
@@ -44,9 +47,6 @@
                             <action selector="favoriteButtonTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="c9h-iJ-D3M"/>
                         </connections>
                     </button>
-                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="rCI-kg-lxX">
-                        <rect key="frame" x="101.66666666666667" y="101.66666666666667" width="37.000000000000014" height="37.000000000000014"/>
-                    </activityIndicatorView>
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
