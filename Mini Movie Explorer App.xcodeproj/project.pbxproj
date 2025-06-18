@@ -34,6 +34,7 @@
 		1CA931E72E021E5E00B19CC2 /* GetMovieDetailsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA931E62E021E5E00B19CC2 /* GetMovieDetailsUseCase.swift */; };
 		1CA931E92E021EBD00B19CC2 /* MovieDetailsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA931E82E021EBD00B19CC2 /* MovieDetailsResponse.swift */; };
 		1CA931EB2E021EF600B19CC2 /* MovieDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA931EA2E021EF600B19CC2 /* MovieDetailsViewModel.swift */; };
+		1CC683902E03167700B303FF /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC6838F2E03167700B303FF /* ActivityIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		1CA931E62E021E5E00B19CC2 /* GetMovieDetailsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMovieDetailsUseCase.swift; sourceTree = "<group>"; };
 		1CA931E82E021EBD00B19CC2 /* MovieDetailsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsResponse.swift; sourceTree = "<group>"; };
 		1CA931EA2E021EF600B19CC2 /* MovieDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewModel.swift; sourceTree = "<group>"; };
+		1CC6838F2E03167700B303FF /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +256,7 @@
 		1CA931D82E020D3200B19CC2 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				1CC6838F2E03167700B303FF /* ActivityIndicator.swift */,
 				1CA931D92E0214CC00B19CC2 /* FavoritesManager.swift */,
 				1CA931D62E020D2C00B19CC2 /* UserDefaultsManager.swift */,
 			);
@@ -382,6 +385,7 @@
 				1C726D8F2E01B39C0074352F /* MovieCell.swift in Sources */,
 				1CA931E92E021EBD00B19CC2 /* MovieDetailsResponse.swift in Sources */,
 				1CA931E52E021E2900B19CC2 /* MovieDetails.swift in Sources */,
+				1CC683902E03167700B303FF /* ActivityIndicator.swift in Sources */,
 				1CA931DA2E0214CC00B19CC2 /* FavoritesManager.swift in Sources */,
 				1C726D762E019FC40074352F /* TMDBService.swift in Sources */,
 				1C726D802E01A9A70074352F /* MovieResponse.swift in Sources */,

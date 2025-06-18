@@ -42,6 +42,9 @@ class MovieDetailsVC: UIViewController {
     }
     
     private func loadMovieDetails() {
+        
+        displayAnimatedActivityIndicatorView()
+        
         Task {
             await viewModel.loadDetails(for: viewModel.movieID)
             updateUI()
@@ -51,6 +54,8 @@ class MovieDetailsVC: UIViewController {
     private func updateUI() {
         guard let details = viewModel.movieDetails else { return }
 
+        hideAnimatedActivityIndicatorView()
+        
         titleLbl.text = details.title
         taglineLbl.text = details.tagline
         ratingLbl.text = String(format: "%.1f", details.voteAverage)
